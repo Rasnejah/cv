@@ -5,11 +5,14 @@
 }
 body{
   font-size: 16px;
-  background-image: url('/backgound.jpeg');
+  background-image: url('../img/backgound.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden
 }
+
+
 
 .menu{
   display: flex;
@@ -116,7 +119,7 @@ hr{
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.php {width: 40%; background-color: #808080;}
 .node {width: 70%; background-color: #B6E388;}
 .react {width: 30%; background-color: #251B37;}
 .reactN {width: 30%; background-color: #89CFFD;}
